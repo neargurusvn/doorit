@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+ 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+	<body>
+	
+	<div marginwidth="0" marginheight="0" style="width:100%;height:100%;background-color:#f8f8f8">
+	
+		<center>
+				<table marginwidth="0" marginheight="0" width="60%" height="100%"  style="border:none;background-color:#f8f8f8">
+				<tr>
+					<td>
+					<table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin:0;line-height:1.5em;background:#fff;border:1px solid #ccc;border-width:1px;border-color:gray">
+						<tbody>
+							<tr style>
+								<td style="margin:0;padding:20px;color:#666666;font:14px/19px 'Helvetica Neue',Helvetica,Arial,sans-serif">
+								Hi ${wrapRequestService.getProUser().getName()}<br/>
+								
+							
+								</td>
+							</tr>
+							<tr style>
+								<td style="margin:0;padding:20px;color:#666666;font:14px/19px 'Helvetica Neue',Helvetica,Arial,sans-serif">
+								
+								
+								Congratulations ${wrapRequestService.getProUser().getName()}  Your Verification is successful <br/><br/> 
+								</td>
+							</tr>
+							
+							
+							<tr>
+								<td>
+								<div  align="center" valign="middle" style="margin-right:40%;margin-left:20%;background-color:#1D4E64;font:18px/28px 'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:normal;padding:15px 20px">
+								<a  style="display:block;text-decoration:none;" href="http://localhost:8080/doorit/email/verify/${wrapRequestService.getProUser().getEmailId()}/${wrapRequestService.getProUser().getUUIDNo()}"><span style="color:#ffffff">View Yor DashBoard</span></a>
+					</div><br/>
+								</td>
+							</tr>
+							
+							
+							<tr>
+								<td style="margin:0;padding:20px;color:#666666;font:14px/19px 'Helvetica Neue',Helvetica,Arial,sans-serif">
+								<label style="font-height:40px"> <b>The NearGuru Team</b><label>
+								</td>
+							</tr>
+							
+							
+						</tbody>
+					</table>
+		</center>
+	
+	
+	</div>
+		
+	</body>	
+   
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

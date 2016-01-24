@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+	<body>
+	
+	
+	
+	<div marginwidth="0" style="margin-left:10%;margin-right:10%" marginheight="0" style="width:100%;background-color:#f8f8f8">
+	
+		<center>
+		<table cellpadding="0" cellspacing="0" border="0" width="80%" height="100%" style="margin:0;line-height:1.5em;background:#fff;border:1px solid #ccc;border-width:1px;border-color:gray">
+						<tbody>
+							<tr style>
+								<td style="margin:0;padding:20px;color:#666666;font:14px/19px 'Helvetica Neue',Helvetica,Arial,sans-serif">
+							Hi ${wrapQuotesMail.custName}
+								</td>
+							</tr>
+							
+							<tr>
+								<td style="margin:0;padding:20px;color:#666666;font:14px/19px 'Helvetica Neue',Helvetica,Arial,sans-serif">
+								 ${wrapQuotesMail.prosName} has sent you a custom quote for your ${wrapQuotesMail.productDesc} <br/>  needs. 
+								</td>
+							</tr>
+							<tr>
+								<td style="margin:0;padding:20px;color:#666666;font:14px/19px 'Helvetica Neue',Helvetica,Arial,sans-serif">
+								Quotes Amount : <b>${wrapQuotesMail.amount} INR</b>	<br/>	<br/>
+									Message : <b>${wrapQuotesMail.message}</b>
+								</td>
+							</tr>
+							<tr>
+								<td style="margin:0;padding:20px;color:#666666;font:14px/19px 'Helvetica Neue',Helvetica,Arial,sans-serif">
+								Your custom quote contains an estimate, personal message,<br/> and  detailed profile information including past work, reviews, <br/>
+								and contact information.<br/><br/> Work out details and hire when you are ready. 
+								</td>
+							</tr>
+							<tr>
+								<td>
+								<div  align="center" valign="middle" style="margin-right:40%;margin-left:20%;background-color:#1D4E64;font:18px/28px 'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:normal;padding:15px 20px">
+								<a  style="display:block;text-decoration:none;" href="http://localhost:8080/doorit/email/verify/${wrapQuotesMail.user.emailId}/${wrapQuotesMail.user.UUIDNo}"><span style="color:#ffffff">View Quote</span></a>
+					</div><br/>
+								</td>
+							</tr>
+							
+							
+							<tr>
+								<td style="margin:0;padding:20px;color:#666666;font:14px/19px 'Helvetica Neue',Helvetica,Arial,sans-serif">
+								<label style="font-height:40px"> <b>The NearGuru Team</b><label>
+								</td>
+							</tr>
+							
+						</tbody>
+					</table>
+			
+		</center>
+	
+	
+	</div>
+		
+	</body>	
+   
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

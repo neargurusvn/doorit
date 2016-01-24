@@ -1,0 +1,499 @@
+/*=============================================================
+    
+    Developed by Pasindu Danthaka Sri
+   
+    ========================================================  */
+
+
+/* ==== Google font ==== */
+@import url('http://fonts.googleapis.com/css?family=Roboto');
+/* === fontawesome === */
+@import url('assets/plugins/font-awesome/font-awesome.css');
+/* ==== animate styles ==== */
+@import url('../plugins/animate/animate.css');
+/*==========================================================================
+  General
+  ========================================================================== */
+body {
+    color:#000;
+    background: #fff;
+    font-size: 16px;
+    line-height: 1.6em;
+    font-weight: 300;
+    text-shadow: none;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 0px;
+    width:100%;
+}
+
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    color:#3c7088;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-style: normal;
+    margin:30px 0 40px 0;
+}
+h1 { font-size: 50px; }
+h2 { font-size: 40px; }
+h3 { font-size: 24px; }
+h4 { font-size: 18px; }
+h5 { font-size: 16px; }
+.txt-uppercase { text-transform: uppercase; }
+
+
+a:hover {
+    text-decoration: none;
+}
+
+:focus {
+    outline: none;
+}
+
+.color-white.txt-shadow {
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.t-uppercase {
+    text-transform: uppercase;
+}
+
+/*==========================================================================
+ Adjustments 
+ ========================================================================== */
+.btn
+{
+    border-radius: 2px;
+}
+
+/*primary button*/
+.btn-primary
+{
+    background-color: #2C3E50;
+    border-color:#2C3E50; 
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary .active,
+.open .dropdown-toggle ..btn-primary
+{
+    color:#fff;
+    background-color: #1E2A36;
+    border-color: #161f29;
+}
+
+/*end success button*/
+
+/*success button*/
+.btn-success
+{
+    background-color: #18bc9c;
+    border-color:#18bc9c; 
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success .active,
+.open .dropdown-toggle .btn-success
+{
+    color:#fff;
+    background-color: #13987e;
+    border-color: #13987e;
+}
+
+/*end success button*/
+
+.fa.fa-star{
+    color: #DBA901;
+
+}
+/*===========================
+  --- Section ----
+=========================== */
+
+.heading {
+    color:#3c7088;
+}
+
+.heading-text{
+    color:#020202;
+}
+
+
+/*===========================
+  --- Header & menu ----
+=========================== */
+.navbar-default
+{
+    background-color: #fff;
+    height: 75px;
+ 
+}
+.navbar-collapse
+{
+    background-color: #fff;
+    border-bottom:1px solid #0ab;
+    height: 75px;
+}
+.navbar-default .navbar-nav > li > a
+{
+    color: #000;
+
+}
+.navbar-default .navbar-nav > li > a:hover
+{
+    color: #007fc5;
+} 
+.navbar-default .navbar-btn
+{
+    background-color: #3c7088;
+    color: #fff;
+
+}
+.navbar-default .navbar-btn:hover
+{
+    background-color: #0ab;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus
+{
+    background-color:#fff;
+    color: #3c7088; 
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus
+{
+    background-color: #3c7088;
+    color:#fff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus
+{
+    background-color: rgba(24,188,156,0.5); ; /*#18bc9c*/
+    color:#fff;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus
+{
+    background-color: #3c7088;
+    color:#fff;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover
+{
+    background-color: rgba(24,188,156,0.5); ; /*#18bc9c*/
+    color:#fff;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus
+{
+     background-color: #3c7088;
+    color:#fff;
+}
+/*===========================
+  --- Products Section----
+=========================== */
+#section-products {
+    background-color: #fff;
+}
+
+/*=======================================
+  SLIDER main-style.css Changes
+==================================================*/
+.mi-slider {
+    margin-top: 0px;
+}
+
+.offer-text
+{
+    position: absolute;
+    color: #FFF;
+    padding: 14px 16px 12px 16px;
+    margin-top: 10px;
+    background-color:#18b424;
+
+}
+.offer-text2
+{
+    position: absolute;
+    color: #020202;
+    padding: 14px 16px 12px 16px;
+    margin-top: 10px;
+    background-color:#EB0429;
+
+}
+
+
+/*=========================
+  Footer
+ ================= */
+.full {
+    width: 100%;    
+}
+.gap {
+    height: 30px;
+    width: 100%;
+    clear: both;
+    display: block;
+}
+.footer {
+    background:#1D4E64; /*#EDEFF1*/
+    height: auto;
+    padding-bottom: 30px;
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid #0ab;
+    border-top: 1px solid #0ab;
+}
+.footer p {
+    margin: 0;
+}
+.footer img {
+    max-width: 100%;
+    padding: 0px;
+}
+.footer h3 {
+    color: #B0C5D1;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 0px;
+    padding: 10px 0 0px;
+    text-transform: uppercase;
+}
+.footer ul {
+    font-size: 14px;
+    list-style-type: none;
+    margin-left: 0;
+   padding: 0px;
+    color: #fff;
+}
+.footer ul li a {
+    padding: 0;
+    display: block;
+}
+.footer ul li a:hover {
+    color: #0ab;
+}
+.footer a {
+    color: #fff;
+}
+
+.social li {
+    background: none repeat scroll 0 0 #B5B5B5;
+    border: 2px solid #B5B5B5;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    margin: 0 8px 0 0;
+    padding: 0;
+    text-align: center;
+    width: 36px;
+    transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+}
+.social li:hover {
+    transform: scale(1.15) rotate(360deg);
+    -webkit-transform: scale(1.1) rotate(360deg);
+    -moz-transform: scale(1.1) rotate(360deg);
+    -ms-transform: scale(1.1) rotate(360deg);
+    -o-transform: scale(1.1) rotate(360deg);
+}
+.social li a {
+    color: #EDEFF1;
+}
+.social li:hover {
+    border: 2px solid #2c3e50;
+    background: #2c3e50;
+}
+.social li a i {
+    font-size: 16px;
+    margin: 0 0 0 5px;
+    color: #EDEFF1 !important;
+}
+.footer-bottom {
+    background: #2c3e50;
+    border-top: 1px solid #2c3e50;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #0ab;
+}
+.footer-bottom p.pull-left {
+    padding-top: 6px;
+}
+.payments {
+    font-size: 1.5em;   
+}
+.develop
+{
+    padding-top: 6px;
+    font-size: 8px;
+    color:#fff;
+}
+
+
+/*===========================
+  --- OTHER  CSS ----
+=========================== */
+
+
+
+/* --- icon box hover --- */
+.hi-icon-effect-5 .hi-icon {
+    color: #35A49C;
+    box-shadow: 0 0 0 4px #37AFFF;
+}
+.no-touch .hi-icon-effect-5 .hi-icon:hover {
+    background: #35A49C;
+    box-shadow: 0 0 0 8px  #37AFFF;
+}
+
+
+/* portfolio */
+.portfolio-item .portfolio-desc {
+    background: rgb(153, 206, 255);
+}
+
+/* top bars */
+.mobile-bars {
+    color: white;
+}
+
+/* contact */
+.validation {
+    color:#ff0000;
+}
+
+/* footer */
+.social-circle li a {
+    background:#358AF7;
+}
+/* scrollup link */
+a.scrollup{
+    background:#358AF7;
+}
+/* Services icon */
+.no-touch .hi-icon-effect-1a .hi-icon {
+    background-color:#CACACA;
+}
+/*back color class*/
+
+.bgcolor-whitesmoke {
+    background-color: whitesmoke;
+}
+.bgcolor-mycolor
+{
+    background-color: #f2f2f2;
+}
+.text-bold {
+    font-weight:bold;
+}
+.txt30 {
+    font-size:30px;
+}
+.margin-top50 {
+    margin-top:50px;
+}
+
+
+/* ========================================
+Media queries
+========================================= */
+@media (max-width: 767px) {
+
+    .side-collapse-container{
+              width:100%;
+              position:relative;
+              left:0;
+              transition:left .4s;
+              
+          }
+          .side-collapse-container.out{
+              left:200px;
+
+          }
+          .side-collapse {
+              top:60px;
+              bottom:0;
+              left:0;
+              width:100%;
+              height: 140px;  
+              position:fixed;
+              overflow:hidden;
+              transition:width .4s;
+              border-bottom: 1px solid #0ab;
+
+          }
+          .side-collapse.in {
+              width:0;
+          }
+
+          .navbar-default .navbar-btn
+            {
+                background-color: #3c7088;
+                color: #fff;
+                margin-top: 30px;
+                width: 100%;
+                font-size: 18px;
+
+            }
+
+            .btn
+            {
+                width: 100%;
+            }
+}
+@media (min-width: 767px){
+            .btn
+            {
+                width: 100%;
+            }
+}
+
+
+/*=======================
+Style Sheet Account-type
+=======================*/
+.account {
+    border:1px solid #f2f2f2;
+    margin:5px;
+    -moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+    background-color: white;
+    padding: 3px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    max-width: 235px;
+    max-height: 155px
+}
+.btn.btn-primary.btn-lg
+{
+    border-color: transparent #428bca transparent transparent;
+    border-color: rgba(255,255,255,0) #428bca rgba(255,255,255,0) rgba(255,255,255,0);
+    width: auto;
+    margin-bottom: 10px;
+}
+
+
+
+/*===========================
+End Style Sheet Account-type
+===========================*/
+
