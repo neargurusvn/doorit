@@ -609,7 +609,7 @@ $(function(){
                                         </div>
           				                  <div id="mobile" class="form-group"> 
                                             <label> <b>Mobile</b> </label>
-                                            <form:input type="text" pattern="\d*"     id="mobileInput" maxlength="12" class="form-control invalid" path="user.mobile"  oninvalid="this.setCustomValidity('Please enter valid mobile number')" oninput="setCustomValidity('')"  />
+                                            <form:input type="text" pattern="\d*" required="required" id="mobileInput" minlength="10" maxlength="12" class="form-control invalid" path="user.mobile"  oninvalid="this.setCustomValidity('Please enter valid mobile number')" oninput="setCustomValidity('')"  />
                                           </div>   
                                         <%--    <div id="mobileVisible" >   
                                            		<form:checkbox path="requestService.isNumberVisible" value="true"/>&nbsp;&nbsp;My  Number should be visible to Professionals<br/>
