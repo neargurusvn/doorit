@@ -100,10 +100,10 @@ padding-left:40px;
   	
  <c:set var="message" value="${product.productDesc}"/>
 
- <%-- <c:if test="${productGroup.isActive eq 'Y'  }"> --%> 
-<c:if test="${product.isActive eq 'Y'  }">				
+ <%-- <c:if test="${productGroup.isActive eq 'Y'  }"> --%> <!-- already		 -->
+ <c:if test="${product.isActive eq ISNULL || product.isActive eq 'Y'  }">	 
 <li><a href="${pageContext.request.contextPath}/popularServiceForm/${product.productId}/${fn:replace(message, " ", "-")}-in-pune" >	${product.productDesc}	</a></li>
-</c:if>
+ </c:if> 
 
 </ul>
 </div>
