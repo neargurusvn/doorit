@@ -269,13 +269,13 @@ input:focus:required:invalid {
 										<ul id="${que.name_class}"
 											class="list-group ${que.name_class}">
 											<c:forEach items="${listProductGroup}" var="product">
-												<c:if test="${product.isActive eq 'Y'  }">
+								 <c:if test="${product.isActive eq ISNULL || product.isActive eq 'Y'  }">
 													<li class="list-group-item cursor"><form:checkbox
 															class="invalidchecbox" path="profile.ListedIn"
 															value="${product.productId}"
 															title="Select Atleast one service" />&nbsp;
 														${product.productName}</li>
-												</c:if>
+										</c:if>
 											</c:forEach>
 											<li class="list-group-item"><form:input
 													class="form-control" width="100%"
