@@ -159,12 +159,12 @@
 						<div class="col-md-3">
 							<b>${reportObj.user.emailId}</b>
 							
-							<c:if test="${reportObj.prosProfile.verification eq 'N' }">  
+						           <c:if test="${reportObj.prosProfile.verification eq ISNULL || reportObj.prosProfile.verification eq 'N' }">   
 								<a  href="${pageContext.request.contextPath}/admin/VendorVerify/${reportObj.user.userId}/Y"  style="width:80%" class="btn btn-success">Enable Vendor</a>
-							</c:if> <br/>
-							<c:if test="${reportObj.prosProfile.verification eq 'Y' }">   
+							 </c:if>  <br/>
+							 <c:if test="${reportObj.prosProfile.verification eq 'Y' }">   
 								<a  href="${pageContext.request.contextPath}/admin/VendorVerify/${reportObj.user.userId}/N"  style="width:80%" class="btn btn-success">Disable Vendor</a>
-							</c:if>
+							</c:if> 
 						</div>
 						<div class="col-md-2">
 							<b>${reportObj.user.formatted_address}</b>
