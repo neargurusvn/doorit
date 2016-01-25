@@ -61,7 +61,7 @@ public class ProductGroup implements java.io.Serializable {
 		
 	
 	@Column(name="Is_active")
-	String isActive="Y";
+	String isActive;                         //Set to nothing(Default) (sushant)
     
 	
 	
