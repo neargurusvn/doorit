@@ -52,8 +52,8 @@ public class Product implements java.io.Serializable{
 	@Column(name="approver_comments")
 	private long approverComments; 
 	
-	@Column(name="is_active")
-	String isActive="Y";
+	@Column(name="is_active")                      //Set to nothing(Default) (sushant)
+	String isActive;
 	
 	
 	public String getApprovedBy() {
