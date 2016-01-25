@@ -81,13 +81,13 @@
 								
 								<div class="col-md-2">          
 							
-							<c:if test="${product.isActive eq 'Y'  }"> 
+							<c:if test="${product.isActive eq 'Y'  }">  
 								<a  href="${pageContext.request.contextPath}/admin/visibleProduct/${product.productId}/Y"  style="width:80%" class="btn btn-success">NO</a>
-							</c:if> <br/>
+						 </c:if> <br/> 
 							
-							 <c:if test="${product.isActive eq 'N'  }"> 
+							  <c:if test="${product.isActive eq ISNULL || product.isActive eq 'N'  }">  
 								<a  href="${pageContext.request.contextPath}/admin/visibleProduct/${product.productId}/N"  style="width:80%" class="btn btn-success">YES</a>
-							 </c:if>
+							  </c:if> 
 						</div>    
 						</div>
 					</c:forEach> 
