@@ -100,10 +100,11 @@
 								<div class="col-md-2" ><a class="btn btn-primary" href="<c:url value='/admin/addProduct/${productGroup.productGroupId}' />" >Add Sub Product </a></div>
 								<div class="col-md-2" ><a class="btn btn-primary" href="<c:url value='/admin/editProductGroup/${productGroup.productGroupId}' />" >Edit Product Group </a></div>
 								<div class="col-md-2" ><a class="btn btn-primary"  href="<c:url value='/admin/deleteProductGroup/${productGroup.productGroupId}' />" >Delete Product Group </a></div>
-								<div class="col-md-2">          
-							<c:if test="${productGroup.isActive eq 'Y'  }"> 
+								<div class="col-md-2">   
+								       
+				 <c:if test="${productGroup.isActive eq ISNULL || productGroup.isActive eq 'Y'  }">  
 								<a  href="${pageContext.request.contextPath}/admin/visibleProductGroup/${productGroup.productGroupId}/Y"  style="width:80%" class="btn btn-success">NO</a>
-							</c:if> <br/>
+                </c:if>  <br/>
 							
 							<%--  <c:if test="${productGroup.isActive eq 'N'  }"> 
 								<a  href="${pageContext.request.contextPath}/admin/visibleProductGroup/${productGroup.productGroupId}/N"  style="width:80%" class="btn btn-success">YES</a>
