@@ -194,11 +194,11 @@ select:focus:required:invalid {
 																<c:forEach items="${productGroupList}"
 																	var="productGroup">
 
-																	<c:if test="${productGroup.isActive eq 'Y'  }">
+										< <c:if test="${productGroup.isActive eq ISNULL || productGroup.isActive eq 'Y'  }">
 
 																		<form:option label="${productGroup.productGroupName}"
 																			value="${productGroup.productGroupId}" />
-																	</c:if>
+													</c:if>
 
 																</c:forEach>
 															</form:select>
