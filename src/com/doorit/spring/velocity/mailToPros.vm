@@ -291,7 +291,7 @@ ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.s
 							</p>
 						
 						<p style="padding:15px;background-color:#ECF8FF;margin-bottom:15px;font-weight:normal;font-size:14px;line-height:1.6;">
-						<b>To get started, you need to verify your email address <b><a href="http://localhost:8080/doorit/email/verify/${userProsProfile.user.emailId}/${userProsProfile.user.UUIDNo}">Click here</a></b></b>
+						<b>To get started, you need to verify your email address <b><a href="http:http://nearguru.com/email/verify/${userProsProfile.user.emailId}/${userProsProfile.user.UUIDNo}">Click here</a></b></b>
 						</p><!-- /Callout Panel -->	
 						<h3>Why wait for a Customer to come in</h3>
 						<p>Nearguru made it possible for you to reach out to the customers quickly and easily! Daily many people sign  up with us to hire a professional for their requirement and specific need. We serve you to reach out to them  and you can contact, connect and get hired continuously thereby multiplying your business. </p>

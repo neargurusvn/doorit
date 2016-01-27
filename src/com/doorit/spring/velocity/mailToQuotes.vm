@@ -40,7 +40,7 @@
 							<tr>
 								<td>
 								<div  align="center" valign="middle" style="margin-right:40%;margin-left:20%;background-color:#1D4E64;font:18px/28px 'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:normal;padding:15px 20px">
-								<a  style="display:block;text-decoration:none;" href="http://localhost:8080/doorit/email/verify/${wrapQuotesMail.user.emailId}/${wrapQuotesMail.user.UUIDNo}"><span style="color:#ffffff">View Quote</span></a>
+								<a  style="display:block;text-decoration:none;" href="http://nearguru.com/email/verify/${wrapQuotesMail.user.emailId}/${wrapQuotesMail.user.UUIDNo}"><span style="color:#ffffff">View Quote</span></a>
 					</div><br/>
 								</td>
 							</tr>
@@ -51,7 +51,7 @@
 								<label style="font-height:40px"> <b>The NearGuru Team</b><label>
 								</td>
 							</tr>
-							
+							 
 						</tbody>
 					</table>
 			

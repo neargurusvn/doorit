@@ -44,7 +44,7 @@
 							<tr>
 								<td>
 								<div  align="center" valign="middle" style="margin-right:40%;margin-left:20%;background-color:#1D4E64;font:18px/28px 'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:normal;padding:15px 20px">
-								<a  style="display:block;text-decoration:none;" href="http://localhost:8080/doorit/email/verify/${wrapRequestService.ProUser.emailId}/${wrapRequestService.ProUser.UUIDNo}"><span style="color:#ffffff">View Request</span></a>
+								<a  style="display:block;text-decoration:none;" href="http://nearguru.com/email/verify/${wrapRequestService.ProUser.emailId}/${wrapRequestService.ProUser.UUIDNo}"><span style="color:#ffffff">View Request</span></a>
 					</div><br/>
 								</td>
 							</tr>
