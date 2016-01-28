@@ -49,7 +49,7 @@
                 <div class="sign">
                     <h3>I am a Professional</h3>
                     <p>Respond to customers request and get hired</p>
-                    <a href="${pageContext.request.contextPath}/listBussiness" class="btn btn-primary btn-lg">Sign Up</a>
+                    <a href="${pageContext.request.contextPath}/pros" class="btn btn-primary btn-lg">Sign Up</a>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-5 col-md-offset-2 col-md-5 text-center" >
