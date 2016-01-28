@@ -127,12 +127,19 @@ public class AdminController {
 	
 	
 	@RequestMapping(value = "/admin/deleteProductGroup/{productGroupId}", method = RequestMethod.GET)
-	public String deleteProductGroup(Model model,@PathVariable("productGroupId") long productGroupId) {
+	public String deleteProductGroup(Model model,@PathVariable("productGroupId") long productGroupId , HttpSession session) {
+		this.adminService.deleteProductGroup(productGroupId);
+
 		model.addAttribute("productGroup", new ProductGroup());
 		model.addAttribute("listProductGroup", this.adminService.listProductGroup());
+		User user=null;
+		if (session.getAttribute("user") != null)
+		{
+			 user =  (User) session.getAttribute("user");
+			model.addAttribute("user",user);
+		}
 		
-		this.adminService.deleteProductGroup(productGroupId);
-		return "productGroup";
+				return "productGroup";
 	}
 	
 	
