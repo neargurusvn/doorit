@@ -30,7 +30,7 @@
          <c:set var="message" value="${product.productDesc}"/>
          <title>${product.productDesc}  in Pune | Nearguru </title>
          <meta name="description" content="${product.productDesc}">
-         <link rel="canonical" href="http://nearguru.com/popularServiceForm/${product.productId}/${fn:replace(message, " ", "-")}" />
+         <link rel="canonical" href="http://nearguru.com/popularServiceForm/${product.productId}/${fn:replace(message, ' ', '-')}" />
          
         <!--  
         <c:choose>  
