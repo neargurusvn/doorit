@@ -212,7 +212,7 @@ input:focus:required:invalid {
 				<div class="col-md-12 bg-color">
 					<div class="container">
 						<h2 class="">
-							<a href="${pageContext.request.contextPath}/<!-- listBussiness -->"
+							<a href="${pageContext.request.contextPath}/pros"
 								title=""><i class="fa fa-arrow-circle-o-left"></i></a> Sign up
 							your business
 						</h2>
