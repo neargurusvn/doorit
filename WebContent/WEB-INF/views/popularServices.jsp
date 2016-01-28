@@ -102,7 +102,7 @@ padding-left:40px;
 
  <%-- <c:if test="${productGroup.isActive eq 'Y'  }"> --%> <!-- already		 -->
  <c:if test="${product.isActive eq ISNULL || product.isActive eq 'Y'  }">	 
-<li><a href="${pageContext.request.contextPath}/popularServiceForm/${product.productId}/${fn:replace(message, " ", "-")}-in-pune" >	${product.productDesc}	</a></li>
+<li><a href="${pageContext.request.contextPath}/popularServiceForm/${product.productId}/${fn:replace(message, ' ', '-')}-in-pune" >	${product.productDesc}	</a></li>
  </c:if> 
 
 </ul>
