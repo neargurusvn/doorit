@@ -64,7 +64,7 @@
                                 <ul>
                                     <li> <a  href="${pageContext.request.contextPath}/howItWorksPros" > How it Works </a> </li> 
                                         <c:if test="${user eq null}">
-                                    <li> <a href="${pageContext.request.contextPath}/listBussiness"> List Your Business </a> </li>
+                                    <li> <a href="${pageContext.request.contextPath}/pros"> List Your Business </a> </li>
                                     
                                  
                                   </c:if> 
