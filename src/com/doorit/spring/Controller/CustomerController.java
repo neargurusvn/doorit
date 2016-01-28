@@ -7,10 +7,12 @@ import java.net.ProtocolException;
 import java.net.URL;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.TimeZone;
 import java.util.UUID;
+
 
 
 
@@ -877,8 +879,18 @@ try{
 			//System.out.println(ex.toString());
 		}
 		
+		
+		List<Product> listProduct= this.adminService.listProduct();
+		List<Product> listActiveProduct = new ArrayList<Product>();
+		for(Product p : listProduct){
+			if(p.getIsActive().equals("Y"))
+			{
+	            		listActiveProduct.add(p);
+			}   		
+		}
 		model.addAttribute("product", new Product());
-		model.addAttribute("listProduct", this.adminService.listProduct());
+		model.addAttribute("listProduct", listActiveProduct);
+		//model.addAttribute("listProduct", this.adminService.listProduct());
 		//System.out.println(" ################ Admin Controller");
 				
 		return "popularServices";
