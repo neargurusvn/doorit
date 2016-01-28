@@ -426,7 +426,7 @@ public class ProsController {
 		
 		return "productGroups";
 	}
-	@RequestMapping(value = "/pros", method = RequestMethod.POST)
+	/*@RequestMapping(value = "/pros", method = RequestMethod.POST)
 	public String pros(Model model,@ModelAttribute("userProsProfile") UserProsProfile userProsProfile) {
 		
 		logger.info("pros registration   -"+"method name - pros  "+this.getClass().getSimpleName());
@@ -434,10 +434,23 @@ public class ProsController {
 		model.addAttribute("productGroup", new Product()); 
 		model.addAttribute("listProductGroup", this.adminService.listProductByProductGroup(new Long(userProsProfile.getProductGroupId())));
 		//model.addAttribute("product", new Product());
-		//model.addAttribute("listProduct", this.adminService.listProduct());
+	//	model.addAttribute("listProductGroup", this.adminService.listProduct());
+		//System.out.println(" ################ prosRegistration page");
+		return "prosRegistration";
+	}	*/
+	@RequestMapping(value = "/pros", method = RequestMethod.GET)
+	public String pros(Model model,@ModelAttribute("userProsProfile") UserProsProfile userProsProfile) {
+		
+		//logger.info("pros registration   -"+"method name - pros  "+this.getClass().getSimpleName());
+		model.addAttribute("userProsProfile", new UserProsProfile());
+		model.addAttribute("productGroup", new Product()); 
+		//model.addAttribute("listProductGroup", this.adminService.listProductByProductGroup(new Long(userProsProfile.getProductGroupId())));
+		//model.addAttribute("product", new Product());
+		model.addAttribute("listProductGroup", this.adminService.listProduct());
 		//System.out.println(" ################ prosRegistration page");
 		return "prosRegistration";
 	}	
+	
 	@RequestMapping(value = "/signUp", method = RequestMethod.GET)
 		public String signUp(){
 		
@@ -1010,12 +1023,12 @@ try{
 	
 	
 	
-
+/*
 	@RequestMapping(value = "/pros", method = RequestMethod.GET)
 	public String pros1(Model model,@ModelAttribute("userProsProfile") UserProsProfile userProsProfile) {
 		return "prosRegistration";
 	}
-	
+	*/
 	
 	
 	
