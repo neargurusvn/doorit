@@ -255,7 +255,7 @@
                   
                    <br>
                     <p style="text-align:center;padding-bottom:20px">    
-                        <a href="${pageContext.request.contextPath}/listBussiness" class="btn btn-lg btn-danger "> <span>Sign up  and grow your business</span></a>
+                        <a href="${pageContext.request.contextPath}/pros" class="btn btn-lg btn-danger "> <span>Sign up  and grow your business</span></a>
                     </p>
                 </div>        
       
