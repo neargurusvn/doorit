@@ -100,7 +100,7 @@
             
                 <li><a href="${pageContext.request.contextPath}/howItWorksCust" >How it Works</a></li>
              
-                  <li><a href="${pageContext.request.contextPath}/listBussiness" >List Your Business</a></li>
+                  <li><a href="${pageContext.request.contextPath}/pros" >List Your Business</a></li>
    				<li><a href="${pageContext.request.contextPath}/SignUp" title="">Sign Up</a></li>
    				   <li><a href="${pageContext.request.contextPath}/login" >Sign In</a></li>
            </ul>         		
