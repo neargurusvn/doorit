@@ -201,7 +201,7 @@
 						<ul class="social-info">
 
 							<li><a style="color: black"
-								href="${pageContext.request.contextPath}/listBussiness"><b>List
+								href="${pageContext.request.contextPath}/pros"><b>List
 										Your Business</b></a></li>
 							<li><a style="color: black"
 								href="${pageContext.request.contextPath}/SignUp">Sign Up</a></li>
