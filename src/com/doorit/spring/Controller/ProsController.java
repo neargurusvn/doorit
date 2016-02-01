@@ -663,7 +663,8 @@ if(isSuccess){
 			productsListedin.add(new Long(product));
 		}
 		List<Product> listproduct=new ArrayList<Product>();
-		listproduct=this.adminService.listProductByProductGroup(productGroupId);
+		//listproduct=this.adminService.listProductByProductGroup(productGroupId);
+		listproduct=this.adminService.listProduct();
 		for(Product product:listproduct){
 			
 			for(Long listedProduct :productsListedin){
@@ -706,6 +707,7 @@ if(isSuccess){
 		////System.out.println("test this>>>"+productGroupWrapperList.get(1).getProductGroupName());
 		//model.addAttribute("productGroup", new ProductGroup());
 		model.addAttribute("listProductGroup", productGroupWrapperList);
+		//model.addAttribute("listProductGroup" , this.adminService.listProduct());
 		//model.addAttribute("productsListedin", productsListedin);
 		model.addAttribute("prosProfile", prosProfile);
 		model.addAttribute("documentList", documentService.list());
