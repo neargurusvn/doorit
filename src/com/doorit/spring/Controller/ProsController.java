@@ -857,7 +857,8 @@ if(isSuccess){
 		Product productObj=this.adminService.getProductById(new Long(productsListed[0]));
 		ProductGroup productGroupObj=this.adminService.getProductGroupById(productObj.getProductGroup().getProductGroupId());
 		List<Product> productGroup=new ArrayList<Product>();
-		productGroup=this.adminService.listProductByProductGroup(productGroupObj.getProductGroupId());
+		//productGroup=this.adminService.listProductByProductGroup(productGroupObj.getProductGroupId());
+		productGroup=this.adminService.listProduct();
 		for(Product product:productGroup){
 			
 			for(Long listedProduct :productsListedin){
