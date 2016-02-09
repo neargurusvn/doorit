@@ -518,7 +518,8 @@ public class ProsController {
 			String listedIn=userProsProfile.getProfile().getListedIn();
 			List<String> productList=Arrays.asList(listedIn.split(","));
 			ProductGroup productGroup=this.adminService.getProductGroupById(Long.parseLong(productList.get(0)));
-			model.addAttribute("listProductGroup", this.adminService.listProductByProductGroup(productGroup.getProductGroupId()));
+			//model.addAttribute("listProductGroup", this.adminService.listProductByProductGroup(productGroup.getProductGroupId()));
+			model.addAttribute("listProductGroup", this.adminService.listProduct());
 			
 			//model.addAttribute("listProductGroup", this.adminService.listProductByProductGroup(productGroupId));
 			//model.addAttribute("listProductGroup", this.adminService.listProductByProductGroup(new Long(userProsProfile.getProductGroupId())));
