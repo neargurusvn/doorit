@@ -176,7 +176,7 @@
                               </div>
                                 <div id="mobile" class="form-group">
                                             <label> <b>Mobile</b> </label>  
-                                            <form:input type="text" pattern="\d*"   required ="required"    id="mobileInput" maxlength="12" class="form-control invalid" path="mobile"  oninvalid="this.setCustomValidity('Please enter valid mobile number')" oninput="setCustomValidity('')"  />
+                                            <form:input type="text" pattern="\d*"   required ="required" minlength="10"   id="mobileInput" maxlength="12" class="form-control invalid" path="mobile"  oninvalid="this.setCustomValidity('Please enter valid mobile number')" oninput="setCustomValidity('')"  />
                                           </div>    
                               <div class="form-group">   
                                  <label for="email"><b>Email</b></label>
