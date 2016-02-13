@@ -32,7 +32,7 @@ public class MessageServiceImpl implements MessageService {
 	String url="http://sms99.co.in/pushsms.php?username=trnrguru&password=TY639F&sender=NRGURU&message="
 				+ message
 				+ "&numbers="+user.getMobile();
-//	messageResponseCode=utilityClass.sendMessage(url);		
+	messageResponseCode=utilityClass.sendMessage(url);		
 	}
 	
 	/***********************************copyright@Nearguru************************************************************
@@ -50,7 +50,7 @@ public class MessageServiceImpl implements MessageService {
 	String url="http://sms99.co.in/pushsms.php?username=trnrguru&password=TY639F&sender=NRGURU&message="
 				+ message
 				+ "&numbers="+user.getMobile();
-	//messageResponseCode=utilityClass.sendMessage(url);		
+	messageResponseCode=utilityClass.sendMessage(url);		
 	}
 	
 	/***********************************copyright@Nearguru************************************************************
@@ -82,7 +82,7 @@ public class MessageServiceImpl implements MessageService {
 	+wrapRequestService.getProduct().getProductName()+"+professional+like+you+,To+send+quote+login+to+http://nearguru.com/+"+"or+call+us+on+8600991383";
 	messageVendors=utilityClass.encodeCharacters(messageVendors);
 	String Prourl="http://sms99.co.in/pushsms.php?username=trnrguru&password=TY639F&sender=NRGURU&message="+messageVendors+"&numbers="+numberofPros;
-	//int responseCode1=utilityClass.sendMessage(Prourl);
+	int responseCode1=utilityClass.sendMessage(Prourl);
 	}
 
 	/***********************************copyright@Nearguru************************************************************
@@ -100,7 +100,7 @@ public class MessageServiceImpl implements MessageService {
 		String url="http://sms99.co.in/pushsms.php?username=trnrguru&password=TY639F&sender=NRGURU&message="
 					+ message
 					+ "&numbers="+wrapQuotesMail.getUser().getMobile();
-		//messageResponseCode=utilityClass.sendMessage(url);	
+		messageResponseCode=utilityClass.sendMessage(url);	
 		
 	}
 
