@@ -521,7 +521,7 @@ public class AdminController {
 		List<Product> productList =this.adminService.listProductByTag(tagName);
 		
 		for (Product l : productList){
-			if(l.getIsActive().equals("Y"))
+  			if(l.getIsActive().equals("Y"))
 		{
 			Tag  t = new Tag();
 			//System.out.println();
