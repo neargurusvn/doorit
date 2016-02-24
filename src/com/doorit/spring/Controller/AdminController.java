@@ -273,6 +273,7 @@ public class AdminController {
 	public String addProductGroup(@ModelAttribute("productGroup") ProductGroup p){
 		
 		//System.out.println("OK");
+		p.setIsActive("Y");
 		
 			this.adminService.addProductGroup(p);
 		
