@@ -32,6 +32,7 @@ public class AdminServiceImpl implements AdminService {
 	@Override
 	@Transactional
 	public void addProduct(ProductGroup pg , Product p) {
+		p.setIsActive("Y");
 		this.adminDAO.addProduct( pg , p);
 		
 	}
