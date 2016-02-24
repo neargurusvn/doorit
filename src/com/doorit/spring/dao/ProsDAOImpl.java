@@ -39,6 +39,7 @@ public class ProsDAOImpl implements ProsDAO {
 		
 		logger.info("add Professional Profile  called     -"+"method name - addProsProfile  "+this.getClass().getSimpleName());
 		
+		profile.setVerification("Y");
 		Session session = this.sessionFactory.getCurrentSession();
 		session.persist(profile);
 		
