@@ -486,7 +486,7 @@ try{
 		
 		try{
 		 session.setAttribute("user", user);
-		 if(user.getEmailId().equals("info@nearguru.com")){
+		 if(user.getEmailId().equals("adminSB007@gmail.com")){
 					user.setUserType("admin");
 		  }else{
 			 user.setUUIDNo(UUID.randomUUID());
