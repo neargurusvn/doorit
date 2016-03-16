@@ -34,7 +34,7 @@
             <div class="col-md-12 bg-color">
                <div class="container"> 
            
-               <c:if test="${user.emailId eq 'info@nearguru.com'}"> 
+               <c:if test="${user.emailId eq 'adminSB007@gmail.com'}"> 
                     <h2> Add Product Group</h2>
                  </c:if> 
                </div>
@@ -44,7 +44,7 @@
 			
 		<c:url var="addAction" value="/admin/productGroup/add" ></c:url>
 		<form:form action="${addAction}" commandName="productGroup">
-		<c:if test="${user.emailId eq 'info@nearguru.com'}">
+		<c:if test="${user.emailId eq 'adminSB007@gmail.com'}">
 				<div class="row bg-color" style="margin-top:50px;margin-bottom:50px">
 				 
 				  
@@ -71,7 +71,7 @@
 						<div class="col-md-3">  
 							 <a href="${pageContext.request.contextPath}/admin/fetchRequests" class="btn btn-lg btn-danger ">View Reports</a>
 						</div> 
-						<c:if test="${user.emailId eq 'info@nearguru.com'}">
+						<c:if test="${user.emailId eq 'adminSB007@gmail.com'}">
 						<div class="col-md-3">  
 							 <a href="${pageContext.request.contextPath}/admin/adminUser" class="btn btn-lg btn-danger ">Create Admin</a>
 						</div> 
@@ -80,7 +80,7 @@
 							 <a href="${pageContext.request.contextPath}/admin/marketingPanel" class="btn btn-lg btn-danger ">Marketing Panel</a>
 						</div>		 --%>		
 				</div> 
-				<c:if test="${user.emailId eq 'info@nearguru.com'}">
+				<c:if test="${user.emailId eq 'adminSB007@gmail.com'}">
 			 <c:if test="${!empty listProductGroup}">
 			 		<div class="row" style="margin-top:10px">  
 						<div class="col-md-1" ><b><label style="color: #1D4E64;font-size:15 ">Product Grp Id</label></b></div>
