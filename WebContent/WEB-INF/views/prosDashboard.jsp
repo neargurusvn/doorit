@@ -124,7 +124,8 @@
     <c:set var="index"  value="${0}"/>
     <c:if test="${empty userRequests}">
    <div class="text-center bg-info text-info" style="height:60px;">       
-   		<h4 style="padding-top:20px;padding-bottom:15px">You have not received any service request  Or You are not verified yet. Please call +91-86000 23817 Or Email On-info@nearguru.com for more information  </h4>   
+   		<h4 style="padding-top:20px;padding-bottom:15px">You have not received any service request Or You are not verified yet or your account is temporarily suspended . 
+   		                            Please call +91-86000 23817 Or Email info@nearguru.com for more information  </h4>   
    </div>
     </c:if>
     <c:forEach var="requests" items="${userRequests}">
