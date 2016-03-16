@@ -50,7 +50,7 @@ public class CustomerDAOImpl implements CustomerDAO {
 	
 	
 	UserRole role = new UserRole();
-	 if(user.getEmailId().equals("info@nearguru.com")){
+	 if(user.getEmailId().equals("adminSB007@gmail.com")){
 	//if(user.getEmailId().contains("info")){
 	//	user.setUserType("admin");
 	role.setRole("ROLE_ADMIN");
