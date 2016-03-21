@@ -80,7 +80,7 @@ padding-left:40px;
         <div class="row">
             <div class="col-md-12 bg-color" style="margin-bottom:30px">
                <div class="container">
-                   <h2 class="">  Get Free quotes for your Home and Events  Services </h2>
+                   <h2 class="">  Start Your Home Renovation Project - Get Free Quotes  </h2>
                </div>
            </div>
 </div>
