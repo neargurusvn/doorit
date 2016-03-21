@@ -22,6 +22,7 @@
 <meta name="category" content=" Business " />
 <meta name="doc-type" content="web page" />
 <meta name="doc-class" content="Published" />
+<meta name="google-site-verification" content="zDQzN8fpB-A0NgCrU9BskeJUMZMMNV4AuOzeL6Sp-aU" />
 <title>Nearguru | Hire an expert pay fair price </title>
 <meta name="description"
 	content="nearguru Pune - Find local business service providers, pest control, packers and movers, cleaning service / water tank cleaning, interior design, modular kitchen, House painter, Water proofing, plumbing & Catering service.">
