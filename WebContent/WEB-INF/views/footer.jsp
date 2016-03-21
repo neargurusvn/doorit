@@ -12,10 +12,10 @@
                 <div class="col-xs-12 col-sm-12 col-md-offset-1 col-lg-11 text" >
                     <div class="col-lg-3  col-md-3 col-sm-3 col-xs-12" style="padding-top:30px">   
                      <ul>   
-                     			<li> <a href="${pageContext.request.contextPath}/index" class="navbar-brand"><img src="<c:url value="/resources/assets/img/logo.png" />" alt="Brand"></a></li>
-                                <li style="padding-top:55px">  
-                                 Nearguru helps you to contact, compare and hire the best service provider near you at a price that is right for you . 
-                                </li>
+                     			
+                                  
+                                <p> Nearguru helps you to contact, compare and hire the best Home renovation service provider near you at a price that is right for you . 
+                                </p>
                                 <li style="padding-top:10px">  
                                    
                                  <ul class="social">  
