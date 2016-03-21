@@ -12,7 +12,7 @@
 <!-- HEAD SECTION-->
 <head>
     <meta charset="utf-8">
-    <title>About Us-NearGuru</title>
+    <title>About Us- NearGuru</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">   
     <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -54,7 +54,7 @@
         <div class="row">
             <div class="col-md-12 bg-color">
                <div class="container">
-                   <h2 class="">  About us </h2>
+                   <h2 class="">  About Us </h2>
                </div>
            </div>
 </div>
@@ -74,8 +74,7 @@
                                 <div class="row text-left">
                                     <div class="col-md-offset-2 col-md-8">
                                         <div>
-                                            <h3 class="heading"><b>About NearGuru</b></h3>
-
+                                            <h3 class="heading"><b>Mission</b></h3>
                                         </div>
                                     </div> 
                                 </div>
@@ -88,39 +87,13 @@
                 <div class="container">
                     <div class="row">
                         <p class="col-md-offset-2 col-md-7">
-                         Nearguru is in the business of obtaining best service suppliers to the doorstep for numerous home services starting from cleansing, repairs, repairer jobs to running errands , Packers & movers, Maid service, Plumbing, Painting, Electrical and serving to in work.
+                         Nearguru is a fast growing tech company that connects homeowners with renovation projects to the
+ 						 best Architects ,Civil Engineers , Interior Designers and General Contractors.
                         </p>
                     </div>
                 </div>
             </section>
-              <section>
-                <div class="container">
-                    <div class="row">
-                        <p class="col-md-offset-2 col-md-7">
-                      We try this in order that you'll spend your time in doing things that you just love most instead of running around coordinating with numerous service agents to get the task done.
-                        </p>
-                    </div>
-                </div>
-            </section>
-             <section>
-                <div class="container">
-                    <div class="row">
-                       <p class="col-md-offset-2 col-md-7">
-                   Not solely that, all our agents are background checked to confirm that we have a tendency to service your request on time by trustworthy those who are 100% in control of quality service.
-                        </p>
-                    </div>
-                </div>
-            </section> 
-             <section>
-                <div class="container">
-                    <div class="row"> 
-                      <p class="col-md-offset-2 col-md-7">
-                 			So, all you've got to try and do is:
-                        </p>
-                    </div>
-                </div>
-            </section>
-            <section id="section-about " class="section">
+              <section id="section-about " class="section">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -128,7 +101,7 @@
                                 <div class="row text-left">
                                     <div class="col-md-offset-2 col-md-8">
                                         <div>
-                                            <h3 class="heading"><b>Book a service</b></h3>
+                                            <h3 class="heading"><b>The Team</b></h3>
 
                                         </div>
                                     </div>
@@ -142,74 +115,14 @@
                 <div class="container">
                     <div class="row">
                       <p class="col-md-offset-2 col-md-7">
-                         In case there's   employment to be done that's unlisted with us heretofore, please do write to us at info@nearguru.com and that we can place in our greatest effort to envision however we will facilitate.
+                         The team comprises of experienced entrepreneurs and technologists who have previously worked in
+ 						 leadership roles in the largest MNCs and many Indian startups. They have worked in domain of large
+ 						 scale systems and ecommerce and have received their education from premier institutes.
                         </p>
                     </div>    
                 </div>
             </section>
-          <section id="section-about " class="section">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12"> 
-                            <div class="container" >
-                                <div class="row text-left">
-                                    <div class="col-md-offset-2 col-md-6">
-                                        <div>
-                                            <h3 class="heading"><b>Pay when job is completed</b></h3>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div class="container">
-                    <div class="row">
-                      <p class="col-md-offset-2 col-md-7">
-                        Or get pleasure from special value by paying direct.
-                        </p>
-                    </div>
-                </div>
-            </section>
-             <section id="section-about " class="section">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="container" >
-                                <div class="row text-left">
-                                    <div class="col-md-offset-2 col-md-8">
-                                        <div>
-                                            <h3 class="heading"><b>Enjoy quality service</b></h3>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div class="container"> 
-                    <div class="row">
-                      <p class="col-md-offset-2 col-md-7">
-                        Our agents are vocationally trained with smart years of service expertise behind them and our in-house soft skills coaching helps they come across because the most client friendly agents you'll meet.
-                        </p>
-                    </div>
-                </div>
-            </section>  
-             <section>
-                <div  style="margin-bottom:5%"class="container">
-                    <div class="row"> 
-                     <p class="col-md-offset-2 col-md-7">
-                        Go ahead and save time to try and do things that you just like to do.
-                        </p>
-                    </div>
-                </div>
-            </section>
+          
    </div>
 
 <!-- footer   -->
