@@ -14,7 +14,7 @@
                      <ul>   
                      			
                                   
-                                <p> Nearguru helps you to contact, compare and hire the best Home renovation service provider near you at a price that is right for you . 
+                                <p> Nearguru helps you to contact, compare and hire the best Home renovation service provider near you at a price that is right for you 
                                 </p>
                                 <li style="padding-top:10px">  
                                    
