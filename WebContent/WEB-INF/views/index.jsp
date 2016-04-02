@@ -84,8 +84,12 @@
 <script
 	src="http://maps.googleapis.com/maps/api/js?sensor=false&amp;libraries=places"></script>
 <script src="<c:url value="/resources/core/jquery.geocomplete.js" />"></script>
-
-
+<style type="text/css">
+.jumbotron{
+background-color: #428BCA;
+/*background-color:none !important;*/
+}
+</style>
 
 <script>
 
@@ -162,6 +166,17 @@
 		});
 
 	});
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-61550071-1', 'auto');
+  ga('send', 'pageview');
+
 </script>
 
 <meta name="google-site-verification"
@@ -262,41 +277,22 @@
 			<div class="container">
 				<div class="row">
 
-					<div class="col-xs-12 col-md-7 col-sm-7">
-						<div class="block">
-
-
-							<div>
-								<h1 style="font-size: 89px; line-height: 80px">
-									<b> Hire an expert </b> <b> Pay fair price </b>
-								</h1>
-
-							</div>
-
-						</div>
-
-						<!-- 
-                    <div class="panel panel-success indexmargin" style="border:0px">
-                            <div class="panel-heading" style="background-color:#EF0D49;padding:3px 15px;border:0px"> <h1 style="font-size:60px" >  
-                          <b> Hire an expert near you  </b>
-                          <b> Pay fair price </b> 
-                          
-                        </h1>            
-                            </div>     
-                                  
-                           
-                                 
-                              
-                        </div>   
-   -->
+					<div class="col-xs-12 col-md-7 col-sm-7 ">
+						
+						<h1 style="color:white">
+									 <b class="hidden-xs">START YOUR HOME RENOVATION </b>
+									 <br>
+									 <p> Get free quotes and price from best pre-screened architects , civil engineers , interior designers and general contractors near you</p>
+						</h1>
+						
+						
+						
+						
 					</div>
 					<div class="col-xs-12 col-md-5 col-sm-5">
 						<div class="row">
 							<div class="panel panel-success ">
-								<div class="panel-heading">Compare quotes & prices from
-									local business</div>
-
-
+								
 
 								<div class="panel-body">
 									<c:url var="requestService" value="/ServiceForm"></c:url>
@@ -304,11 +300,11 @@
 										commandName="userProsProfile">
 
 										<div class="form-group">
-											<label><b>What service do you need?</b></label>
+											<label><b>What project do you need help with?</b></label>
 											<form:input id="w-input-search" value="" maxlength="100"
 												required="required" path="product.productName"
 												class="form-control input-lg col-md-4"
-												placeholder=" interior design , modular kitchen , packers and movers" />
+												placeholder="interior design , modular kitchen , House Painting" />
 										</div>
 
 										<!--
@@ -349,7 +345,7 @@
 
 										</div>
 										<div class="form-group">
-											<input type="submit" class="btn btn-success btn-lg"
+											<input type="submit" class="btn btn-warning btn-lg"
 												id="btnContinue" value="Get FREE Quotes" />
 										</div>
 									</form:form>
@@ -376,7 +372,7 @@
 					<div class="row" id="design">
 						<div class="col-md-4 col-md-offset-1">
 							<div class="home-design-info text-center">
-								<figure>
+								<figure class="hidden-xs" >
 									<img alt="Post your need" style="width: 70%; height: 60%"
 										src="<c:url value="/resources/assets/img/Post_your_need.PNG" />">
 								</figure>
@@ -399,7 +395,7 @@
 					<div class="row" id="develop">
 						<div class="col-md-4 col-md-push-7">
 							<div class="home-dev-info text-center">
-								<figure>
+								<figure class="hidden-xs">
 									<img alt="Compare and select service providers"
 										style="margin-top: 15%; width: 70%; height: 60%"
 										src="<c:url value="/resources/assets/img/compareProsFrame.png" />">
@@ -446,7 +442,7 @@
 					<div class="row" id="design" style="padding-bottom: 30px">
 						<div class="col-md-4 col-md-offset-1">
 							<div class="home-design-info text-center">
-								<figure>
+								<figure class="hidden-xs">
 									<img alt="Hire the best" style="width: 70%; height: 60%"
 										src="<c:url value="/resources/assets/img/hirebestFrame.PNG" />">
 								</figure>
@@ -505,6 +501,7 @@
 					</figure>
 				</div>
 			</div>
+			
 
 			<div class="col-ms-10 col-md-4">
 				<div class="project">
