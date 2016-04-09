@@ -33,61 +33,43 @@
 <!-- Fonts -->
 <!-- CSS -->
 
-<link rel="shortcut icon"
-	href="<c:url value="/resources/assets/img/favicon.ico" />" />
-<link
-	href="<c:url value="/resources/assets/plugins/isotope/isotope.css" />"
-	rel="stylesheet" media="screen" />
-<link
-	href="<c:url value="/resources/assets/plugins/fancybox/jquery.fancybox.css" />"
-	rel="stylesheet" />
-<link
-	href="<c:url value="/assets/plugins/IconHoverEffects-master/css/component.css" />"
-	rel="stylesheet" />
-<link
-	href="<c:url value="/resources/assets/plugins/bootstrap/bootstrap.css" />"
-	rel="stylesheet" />
-<link
-	href="<c:url value="/resources/assets/css/about-achivements.css" />"
-	rel="stylesheet" />
-<link
-	href="<c:url value="/resources/assets/plugins/font-awesome/font-awesome.css" />"
-	rel="stylesheet">
-<link href='http://fonts.googleapis.com/css?family=Roboto'
-	rel='stylesheet' type='text/css'>
-<link id="mainStyle"
-	href="<c:url value="/resources/assets/css/vendor.css" />"
-	rel="stylesheet" />
-<link id="mainStyle"
-	href="<c:url value="/resources/assets/css/main.css" />"
-	rel="stylesheet" />
+<link rel="shortcut icon" href="<c:url value="/resources/assets/img/favicon.ico" />" />
+<link href="<c:url value="/resources/assets/plugins/isotope/isotope.css" />" rel="stylesheet" media="screen" />
+<link href="<c:url value="/resources/assets/plugins/fancybox/jquery.fancybox.css" />" rel="stylesheet" />
+<link href="<c:url value="/assets/plugins/IconHoverEffects-master/css/component.css" />" rel="stylesheet" />
+<link href="<c:url value="/resources/assets/plugins/bootstrap/bootstrap.css" />" rel="stylesheet" />
+<link href="<c:url value="/resources/assets/css/about-achivements.css" />" rel="stylesheet" />
+<link href="<c:url value="/resources/assets/plugins/font-awesome/font-awesome.css" />" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link id="mainStyle" href="<c:url value="/resources/assets/css/vendor.css" />" rel="stylesheet" />
+<link id="mainStyle" href="<c:url value="/resources/assets/css/main.css" />" rel="stylesheet" />
 <link href="<c:url value="/resources/core/main.css" />" rel="stylesheet">
 
 
 <!-- Js -->
-<script
-	src="<c:url value="/resources/assets/js/jquery.easing.1.3.js" />"></script>
-<script
-	src="<c:url value="/resources/assets/plugins/bootstrap/bootstrap.min.js" />"></script>
-<script
-	src="<c:url value="/resources/assets/plugins/isotope/jquery.isotope.min.js" />"></script>
-<script
-	src="<c:url value="/resources/assets/plugins/fancybox/jquery.fancybox.pack.js" />"></script>
-<script
-	src="<c:url value="/resources/assets/js/jquery.localscroll-1.2.7-min.js" />"></script>
+<script src="<c:url value="/resources/assets/js/jquery.easing.1.3.js" />"></script>
+<script src="<c:url value="/resources/assets/plugins/bootstrap/bootstrap.min.js" />"></script>
+<script src="<c:url value="/resources/assets/plugins/isotope/jquery.isotope.min.js" />"></script>
+<script src="<c:url value="/resources/assets/plugins/fancybox/jquery.fancybox.pack.js" />"></script>
+<script src="<c:url value="/resources/assets/js/jquery.localscroll-1.2.7-min.js" />"></script>
 <script src="<c:url value="/resources/assets/js/jquery.appear.js" />"></script>
 <script src="<c:url value="/resources/assets/scripts/main.js" />"></script>
 <script src="<c:url value="/resources/assets/scripts/login.js" />"></script>
 <script src="<c:url value="/resources/core/jquery.1.10.2.min.js" />"></script>
-<script
-	src="<c:url value="/resources/core/jquery.autocomplete.min.js" />"></script>
-<script
-	src="http://maps.googleapis.com/maps/api/js?sensor=false&amp;libraries=places"></script>
+<script src="<c:url value="/resources/core/jquery.autocomplete.min.js" />"></script>
+<script src="http://maps.googleapis.com/maps/api/js?sensor=false&amp;libraries=places"></script>
 <script src="<c:url value="/resources/core/jquery.geocomplete.js" />"></script>
 <style type="text/css">
 .jumbotron{
 background-color: #428BCA;
 /*background-color:none !important;*/
+}
+
+.icon-background {
+    color: #DDD;
+}
+.footer {
+    background:#656060; 
 }
 </style>
 
@@ -277,12 +259,12 @@ background-color: #428BCA;
 			<div class="container">
 				<div class="row">
 
-					<div class="col-xs-12 col-md-7 col-sm-7 ">
+					<div class="col-xs-12 col-md-7 col-sm-6 ">
 						
 						<h1 style="color:white">
-									 <b class="hidden-xs">START YOUR HOME RENOVATION </b>
+									 <b class="hidden-xs hidden-sm">START YOUR HOME RENOVATION </b>
 									 <br>
-									 <p> Get free quotes and price from best pre-screened architects , civil engineers , interior designers and general contractors near you</p>
+									 <p> <b>Get free quotes and price from best pre-screened architects , civil engineers , interior designers and general contractors near you</b></b></p>
 						</h1>
 						
 						
@@ -361,253 +343,213 @@ background-color: #428BCA;
 	</div>
 
 
-	<div class="container">
-		<div class='row'>
-			<div class='col-xs-12 col-md-offset-1 col-md-10'></div>
-		</div>
-
+		<section >
+	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-12">
 				<article>
-					<div class="row" id="design">
-						<div class="col-md-4 col-md-offset-1">
-							<div class="home-design-info text-center">
-								<figure class="hidden-xs" >
-									<img alt="Post your need" style="width: 70%; height: 60%"
-										src="<c:url value="/resources/assets/img/Post_your_need.PNG" />">
-								</figure>
-							</div>
-						</div>
-						<!-- 4 -->
-						<div class="col-md-6">
-							<div class="deets">
-								<h2 class="text-primary">
-									<span style="background-color: #EF0D49; font-size: 38px"
-										class="badge">1</span> Post your need
-								</h2>
-								<p class="text-cont">Brief your requirement and fill up the
-									simple questionnaire to understand your need. We connect you to
-									the relevant service providers.</p>
-							</div>
-						</div>
-					</div>
-					<!-- /row -->
-					<div class="row" id="develop">
-						<div class="col-md-4 col-md-push-7">
-							<div class="home-dev-info text-center">
-								<figure class="hidden-xs">
-									<img alt="Compare and select service providers"
-										style="margin-top: 15%; width: 70%; height: 60%"
-										src="<c:url value="/resources/assets/img/compareProsFrame.png" />">
-								</figure>
-							</div>
-						</div>
-						<!-- col -->
-						<div class="col-md-6 col-md-pull-3">
-							<div class="deets">
-								<h2 class="text-primary">
-									<span style="background-color: #EF0D49; font-size: 38px"
-										class="badge">2</span>&nbsp;Compare and select service
-									providers
-								</h2>
-								<p class="text-cont">Relevant expert service providers will
-									respond within couple of hours with their quotations. You have
-									the list to select the best by comparing the quotes and the
-									service providers. To help you select effectively we have
-									special features:</p>
-								<br />
-								<ul class="fa-ul">
-									<li><i class="fa-li fa fa-inr fa-2x text-info"></i>
-									<p>Online quotation price</p>
-										<br /></li>
-									<li><i class="fa-li fa fa-pencil-square fa-2x text-info"></i>
-									<p>Professional personal message</p>
-										<br /></li>
-									<li><i class="fa-li fa fa-file fa-2x  text-info"></i>
-										<p>Quotation as an attachment file</p>
-										<br /></li>
-									<li><i class="fa-li fa fa-user fa-2x  text-info"></i>
-										<p>Professional profile</p>
-										<br /></li>
-									<li><i class="fa-li fa fa-comments-o fa-2x  text-info"></i>
-										<p>Customers reviews</p>
-										<br /></li>
-								</ul>
+					<div class='row'>
+						<div class='col-xs-12 col-md-offset-1 col-md-10'
+							style="margin-bottom: 2%">
+							<h1 class="text-center" style="font-size:32px;color:black;"><b>HOW WE WORKS</b></h1>
+							<div class="row" style="margin-bottom: 3%">
 
-							</div>
+								<div class="col-md-4" style="text-align: center">
+								<span class="fa-stack fa-4x">
+  								<i class="fa fa-circle fa-stack-2x icon-background"></i>
+  								<i class="fa fa-pencil-square-o fa-stack-1x" style="color:#4BAD57;"></i>
+								</span>
+									<p class="text-cont"><b>Post your need</b></p>
+								</div>
+								<div class="col-md-4" style="text-align: center">
+								<span class="fa-stack fa-4x">
+  								<i class="fa fa-circle fa-stack-2x icon-background"></i>
+  								<i class="fa fa-users fa-stack-1x" style="color:#4BAD57;"></i>
+								</span>
+									<p class="text-cont"><b>Get free quotes</b> </p>
+								</div>
+
+								<div class="col-md-4" style="text-align: center">
+								<span class="fa-stack fa-4x">
+  								<i class="fa fa-circle fa-stack-2x icon-background"></i>
+  								<i class="fa fa-check-square-o fa-stack-1x" style="color:#4BAD57;"></i>
+								</span>
+									<p class="text-center"><b>Hire smartly</b></p>
+								</div>
+								</div>
+							
 						</div>
-						<!-- col -->
 					</div>
-					<!-- /row -->
-					<div class="row" id="design" style="padding-bottom: 30px">
-						<div class="col-md-4 col-md-offset-1">
-							<div class="home-design-info text-center">
-								<figure class="hidden-xs">
-									<img alt="Hire the best" style="width: 70%; height: 60%"
-										src="<c:url value="/resources/assets/img/hirebestFrame.PNG" />">
-								</figure>
-							</div>
-						</div>
-						<!-- 4 -->
-						<div class="col-md-6">
-							<div class="deets">
-								<h2 class="text-primary">
-									<span style="background-color: #EF0D49; font-size: 38px"
-										class="badge">3</span> Hire the best
-								</h2>
-								<p class="text-cont">Decide by comparing the prices, reading
-									reviews and asking questions to the provider. You get to hire
-									the best for your service need.</p>
-							</div>
-						</div>
-					</div>
-					<!-- /row -->
+
 				</article>
 			</div>
 		</div>
 	</div>
-
-
-
-
-
+	</section>
 
 
 	<div class="container-fluid" style="background-color: #dedede">
 		<div class='row'>
 			<div class='col-xs-12 col-md-offset-1 col-md-10'>
-				<h1 class="title text-center" style="padding-top: 30px">Popular
-					Services</h1>
-			</div>
+				<h1 class="text-center" style="font-size:32px;color:black;"><b>POPULAR SERVICES</b></h1></div>
 		</div>
 
-		<div class="row" style="margin-left: 4%">
-			<div class="col-ms-10 col-md-4">
+		<div class="row" style="margin-left:4%; margin-right:4%;">
+			<div class="col-xs-12 col-sm-6 col-md-3">
 				<div class="project">
 					<figure class="img-responsive">
 						<img
-							src="<c:url value="/resources/assets/img/packers_and_movers.jpg" />"
-							alt="Packers and Movers Service">
+							src="<c:url value="/resources/assets/img/Architects-Engineers.jpg" />"
+							alt="Architects Engineers">
 						<figcaption>
-							
-							<span class="project-details">Packers and Movers</span>
-					
-
+							<span class="project-details"><p class="text-center">Architects Engineers</p></span>
 						</figcaption>
-						<span class="actions"> <a
-							href="${pageContext.request.contextPath}/popularServiceForm/2/packers-and-movers-in-pune"
-							class="btn btn-warning bnt-action">Request Service </a>
+						<span class="actions"> <a href="${pageContext.request.contextPath}/popularServiceForm/43/architects-engineers"
+							class="btn btn-warning bnt-action">START PROJECT</a>
 						</span>
 					</figure>
 				</div>
 			</div>
 			
 
-			<div class="col-ms-10 col-md-4">
+			<div class="col-xs-12 col-sm-6 col-md-3">
 				<div class="project">
 					<figure class="img-responsive">
 						<img
-							src="<c:url value="/resources/assets/img/interior_design_service.jpg" />"
-							alt="Interior Design Service">
+							src="<c:url value="/resources/assets/img/interior-design.jpg" />"
+							alt="Interior Design">
 						<figcaption>
-							<span class="project-details">Interior Design</span>
+							<span class="project-details"><p class="text-center">Interior Design</p></span>
 
 						</figcaption>
 						<span class="actions"> <a
-							href="${pageContext.request.contextPath}/popularServiceForm/13/interior-design-in-pune"
-							class="btn btn-warning bnt-action">Request Service </a>
+							href="${pageContext.request.contextPath}/popularServiceForm/13/interior-design"
+							class="btn btn-warning bnt-action">START PROJECT</a>
 						</span>
 					</figure>
 				</div>
 			</div>
 
 
-			<div class="col-ms-10 col-md-4">
+			<div class="col-xs-12 col-sm-6 col-md-3">
 				<div class="project">
 					<figure class="img-responsive">
 						<img
-							src="<c:url value="/resources/assets/img/modular_kithcen.jpg" />"
-							alt="Modular Kitchen Service">
+							src="<c:url value="/resources/assets/img/modular-kitchen.jpg" />"
+							alt="Modular Kitchen">
 						<figcaption>
-							<span class="project-details">Modular Kitchen</span>
+							<span class="project-details"> <p class="text-center">Modular Kitchen</p></span>
 
 						</figcaption>
 						<span class="actions"> <a
 							class="btn btn-warning bnt-action"
-							href="${pageContext.request.contextPath}/popularServiceForm/14/modular-kitchen-in-pune">Request
-								Service </a>
+							href="${pageContext.request.contextPath}/popularServiceForm/14/modular-kitchen">START PROJECT </a>
 						</span>
 					</figure>
 				</div>
 			</div>
+			
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<div class="project">
+					<figure class="img-responsive">
+						<img
+							src="<c:url value="/resources/assets/img/Furniture Making.jpg" />"
+							alt="Furniture Making">
+						<figcaption>
+							<span class="project-details"><p class="text-center">Furniture Making</p></span>
+
+						</figcaption>
+						<span class="actions"> <a
+							class="btn btn-warning bnt-action"
+							href="${pageContext.request.contextPath}/popularServiceForm/44/furniture-making">START PROJECT </a>
+						</span>
+					</figure>
+				</div>
+			</div>
+			
 		</div>
-		<div class="row" style="margin-left: 4%">
-			<div class="col-ms-10 col-md-4">
+		<div class="row" style="margin-left:4%;margin-right:4%;">
+			<div class="col-xs-12 col-sm-6 col-md-3">
 				<div class="project">
 					<figure class="img-responsive">
 						<img
 							src="<c:url value="/resources/assets/img/home_painting.jpg" />"
 							alt="House painting Service">
 						<figcaption>
-							<span class="project-details">Interior House Painting</span>
+							<span class="project-details"><p class="text-center">Painting</p></span>
 
 						</figcaption>
 						<span class="actions"> <a
 							class="btn btn-warning bnt-action"
-							href="${pageContext.request.contextPath}/popularServiceForm/16/interior-house-painting-in-pune">Request
-								Service </a>
+							href="${pageContext.request.contextPath}/popularServiceForm/16/interior-house-painting">START PROJECT</a>
 						</span>
 					</figure>
 				</div>
 			</div>
 
-			<div class="col-ms-10 col-md-4">
+			<div class="col-xs-12 col-sm-6 col-md-3">
 				<div class="project">
 					<figure class="img-responsive">
-						<img src="<c:url value="/resources/assets/img/pestcontrol.jpg" />"
-							alt="Pest Control service">
+						<img src="<c:url value="/resources/assets/img/bathroom-renovation.jpg" />"
+							alt="bathroom renovation">
 						<figcaption>
-							<span class="project-details">Pest Control</span>
+							<span class="project-details"><p class="text-center">Bathroom Renovation </p></span>
 
 						</figcaption>
 						<span class="actions"> <a
 							class="btn btn-warning bnt-action"
-							href="${pageContext.request.contextPath}/popularServiceForm/1/pest-control-in-pune">Request
-								Service </a>
+							href="${pageContext.request.contextPath}/popularServiceForm/41/bathroom-renovation">START PROJECT</a>
 						</span>
 					</figure>
 				</div>
 			</div>
 
-
-			<div class="col-ms-10 col-md-4">
+			<div class="col-xs-12 col-sm-6 col-md-3">
 				<div class="project">
 					<figure class="img-responsive">
-						<img src="<c:url value="/resources/assets/img/cleaning.jpg" />"
-							alt="Home Cleaning service  ">
+						<img src="<c:url value="/resources/assets/img/flooring-tiles.jpg" />"
+							alt="flooring tiles">
 						<figcaption>
-							<span class="project-details">Home Cleaning</span>
+							<span class="project-details"><p class="text-center">Floorings Tiles</p></span>
 
 						</figcaption>
 						<span class="actions"> <a
 							class="btn btn-warning bnt-action"
-							href="${pageContext.request.contextPath}/popularServiceForm/5/cleaning-services">Request
-								Service </a>
+							href="${pageContext.request.contextPath}/popularServiceForm/42/Flooring-Services">START PROJECT</a>
 						</span>
 					</figure>
 				</div>
 			</div>
+			
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<div class="project">
+					<figure class="img-responsive">
+						<img src="<c:url value="/resources/assets/img/ceiling-lighting.jpg" />"
+							alt="ceiling lighting">
+						<figcaption>
+							<span class="project-details"><p class="text-center">Ceiling Lighting</p></span>
+
+						</figcaption>
+						<span class="actions"> <a class="btn btn-warning bnt-action"
+							href="${pageContext.request.contextPath}/popularServiceForm/21/ceiling-lighting">START PROJECT</a>
+						</span>
+					</figure>
+				</div>
+			</div>
+			
+			
 		</div>
 
-
-		<div class="row" style="padding-bottom: 25px; margin-left: 4%">
-			<div class="col-xs-12  col-md-4">
-				<button class="btn btn-lg btn-danger"
+		<div class="row">
+		<div class='col-xs-12 col-sm-offset-3 col-sm-6 col-md-offset-5 col-md-2' style="margin-bottom: 2%">
+		<button class="btn btn-lg btn-danger"
 					onclick="window.location = '${pageContext.request.contextPath}/popularServices';"
 					type="button" name="">View all Services</button>
-			</div>
-		</div>
-
+			
+		</div>	
+		</div>		
+		
+		
 	</div>
 
 
@@ -618,46 +560,47 @@ background-color: #428BCA;
 					<div class='row'>
 						<div class='col-xs-12 col-md-offset-1 col-md-10'
 							style="margin-bottom: 2%">
-							<h1 class="title text-center">Why use NearGuru</h1>
+							<h1 class="text-center" style="font-size:32px;color:black"><b>WHY USE NEARGURU</b></h1>
+							
 							<div class="row" style="margin-bottom: 3%">
 
-								<div class="col-md-3" style="text-align: center">
-									<i class="fa fa-money fa-4x text-danger"></i>
+								<div class="col-sm-6 col-md-3" style="text-align: center">
+									<i class="fa fa-money fa-3x" style="color:#4BAD57;"></i>
 									<p class="text-cont">Free to use</p>
 								</div>
-								<div class="col-md-3" style="text-align: center">
-									<i class="fa fa-dropbox fa-4x  text-danger"></i>
+								<div class="col-sm-6 col-md-3" style="text-align: center">
+									<i class="fa fa-dropbox fa-3x  text-danger" style="color:#4BAD57;"></i>
 									<p class="text-cont">No obligation to hire</p>
 								</div>
 
-								<div class="col-md-3" style="text-align: center">
-									<i class="fa fa-tachometer fa-4x  text-danger"></i>
+								<div class="col-sm-6 col-md-3" style="text-align: center">
+									<i class="fa fa-tachometer fa-3x  text-danger" style="color:#4BAD57;"></i>
 									<p class="text-cont">Personal Dashboard</p>
 								</div>
 
 
-								<div class="col-md-3" style="text-align: center">
-									<i class="fa fa-inr fa-4x  text-danger"></i>
-									<p class="text-cont">Online Quotes and Best Price</p>
+								<div class="col-sm-6 col-md-3" style="text-align:center">
+									<i class="fa fa-inr fa-3x  text-danger" style="color:#4BAD57;"></i>
+									<p class="text-cont">Online Quotes </p>
 								</div>
 
 							</div>
 							<div class="row">
-								<div class="col-md-3" style="text-align: center">
-									<i class="fa fa-users fa-4x  text-danger"></i>
-									<p class="text-cont">100% verified and trusted professional</p>
+								<div class="col-sm-6 col-md-3" style="text-align: center">
+									<i class="fa fa-user fa-3x  text-danger" style="color:#4BAD57;"></i>
+									<p class="text-cont">Trusted Professional</p>
 								</div>
-								<div class="col-md-3" style="text-align: center">
-									<i class="fa fa-globe fa-4x  text-danger"></i>
-									<p class="text-cont">One stop destination</p>
+								<div class="col-sm-6 col-md-3" style="text-align: center">
+									<i class="fa fa-certificate fa-3x  text-danger" style="color:#4BAD57;"></i>
+									<p class="text-cont">Guaranteed Services</p>
 								</div>
 
-								<div class="col-md-3" style="text-align: center">
-									<i class="fa fa-clock-o fa-4x  text-danger"></i>
+								<div class="col-sm-6 col-md-3" style="text-align: center">
+									<i class="fa fa-clock-o fa-3x  text-danger" style="color:#4BAD57;"></i>
 									<p class="text-cont">Saves your time</p>
 								</div>
-								<div class="col-md-3" style="text-align: center">
-									<i class="fa fa-check-square fa-4x  text-danger"></i>
+								<div class="col-sm-6 col-md-3" style="text-align: center">
+									<i class="fa fa-check-square fa-3x  text-danger" style="color:#4BAD57;"></i>
 									<p class="text-cont">Best Quality</p>
 								</div>
 
@@ -687,7 +630,7 @@ background-color: #428BCA;
 			//Set the carousel options
 			$('#quote-carousel').carousel({
 				pauseOnHover : true,
-				interval : 1000,
+				interval : 1000
 			});
 		});
 	</script>

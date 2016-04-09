@@ -59,31 +59,17 @@
 <body style="line-height:1.8;"> 
 
 <%@ include file="header.jsp" %>         
-<div class="howitworks " style="min-height: 400px;margin-top:-2%">     
-     <section id="banner" >
-  
-        <div class="container">  
-            <div class="row"> 
-
-                <div class="col-xs-12 col-md-12 col-sm-7">
-                    <div class="block">
-                        
-                       
-                        
-                        <h1 style="font-size:70px;font-weight:bold;color:white;line-height:66px">  
-                          Meet new costumers Grow your business 
-                        </h1>
-                          
-                    </div>
-  
-                </div> 
-               
-            </div>
-        </div>
-
-
-    </section>
+<section>
+ <div class="container-fluid">
+        <div class="row" style="margin-bottom:30px;"> 
+            <div class="col-md-12 bg-color">
+               <div class="container">
+                   <h2 class="text-center">  MEET NEW CUSTOMERS </h2>
+               </div>
+           </div>
 </div>
+       </div>
+ </section>
    <!-- HEADER SECTION -->
 <div class="container">
    
