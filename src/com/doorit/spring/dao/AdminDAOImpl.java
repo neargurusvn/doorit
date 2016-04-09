@@ -55,7 +55,7 @@ public class AdminDAOImpl implements AdminDAO {
 	public List<Product> listProduct() {
 		//System.out.println("######################## DAO ##################");
 		Session session = this.sessionFactory.getCurrentSession();
-		List<Product> productList = session.createQuery("from Product").list();
+		List<Product> productList = session.createQuery("from Product order by productName").list();
 		for(Product p : productList){
 			logger.info("Product List::"+p);
 		}
