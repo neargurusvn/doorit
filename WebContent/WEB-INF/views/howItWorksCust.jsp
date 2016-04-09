@@ -80,31 +80,18 @@
  
 <%@ include file="header.jsp" %>   
    <!-- HEADER SECTION -->  
-   <div  class="howitworks howitworks_ht" style="min-height: 400px;margin-top:-2%">
-     <section id="banner" >
-     
-        <div class="container">        
-            <div class="row">
-
-                <div class="col-xs-12 col-md-12 col-sm-7">
-                    <div class="block">
-                        
-                       
-                        
-                        <h1 style="font-size:70px;font-weight:bold;color:white;line-height:66px">  
-                            Contact, Connect and Execute with service providers hassle free!
-                        </h1>   
-
-                    </div>
-  
-                </div> 
-               
-            </div>
-        </div>
-
-
-    </section>
+   <section>
+ <div class="container-fluid">
+        <div class="row" style="margin-bottom:30px;"> 
+            <div class="col-md-12 bg-color">
+               <div class="container">
+                   <h2 class="text-center">  HOW IT WORKS </h2>
+               </div>
+           </div>
 </div>
+       </div>
+   </section>
+
 <div>   
 
  <div class="container">
