@@ -544,7 +544,7 @@ $(function(){
                                          
                                         <c:if test="${not empty user}"> 
                                          <p> By clicking Submit form, you indicate that you have read and agree to the <a style="cursor:pointer" onclick="openFooterLinks('termsOfUsage')">Terms of Use </a>and <a style="cursor:pointer" onclick="openFooterLinks('privacyPolicy')">Privacy Policy</a>.</p>  
-                                          <button id="btnCreateRequest"   class="btn btn-primary " type="submit">Submit</button>
+                                          <button id="btnCreateRequest"   class="btn btn-warning btn-lg" type="submit">Start Project</button>
                                           </c:if>
                                     </fieldset> 
                                     
@@ -595,7 +595,7 @@ $(function(){
                                        		</div>
                                         
                                         <p> By clicking Submit form, you indicate that you have read and agree to the <a style="cursor:pointer" onclick="openFooterLinks('termsOfUsage')">Terms of Use </a>and <a style="cursor:pointer" onclick="openFooterLinks('privacyPolicy')">Privacy Policy</a>.</p>  
-                                        <button id="btnCreateRequest" class="btn btn-primary " type="submit">Submit</button>
+                                        <button id="btnCreateRequest"   class="btn btn-warning btn-lg" type="submit">Start Project</button>
                                         
                                         
                                         
