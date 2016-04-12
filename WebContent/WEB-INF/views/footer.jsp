@@ -41,7 +41,7 @@
                             <ul>
                                 <li> <a  href="${pageContext.request.contextPath}/AboutUs"  >About Us </a> </li> 
                             <%--  <li> <a   href="${pageContext.request.contextPath}/location"   >Locations </a> </li> --%>   
-                             <li> <a   href="${pageContext.request.contextPath}/trustandsaftey"   >Trust and Safety </a> </li>
+                             <li> <a   href="${pageContext.request.contextPath}/trustandsafety"   >Trust and Safety </a> </li>
                               <li> <a   href="${pageContext.request.contextPath}/termsOfUsage"   >Terms of Usage </a> </li>
                                <li> <a   href="${pageContext.request.contextPath}/privacyPolicy"   >Privacy  </a> </li> 
                                  <!-- 
