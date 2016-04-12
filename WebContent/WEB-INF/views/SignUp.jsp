@@ -14,7 +14,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>NearGuru- Sign Up </title>
-    <meta name="description" content="I am a Professional & I want to hire professionals.">
+    <meta name="description" content="Interior design , Modular kitchen ">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">   
     <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <!-- MAIN STYLE SECTION-->
@@ -49,14 +49,14 @@
                 <div class="sign">
                     <h3>I am a Professional</h3>
                     <p>Respond to customers request and get hired</p>
-                    <a href="${pageContext.request.contextPath}/pros" class="btn btn-primary btn-lg">Sign Up</a>
+                    <a href="${pageContext.request.contextPath}/pros" class="btn btn-warning btn-lg">Sign Up</a>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-5 col-md-offset-2 col-md-5 text-center" >
                 <div class="sign">
                     <h3>I want to hire professionals</h3>
                     <p>Get introduce to right professionals for your service need</p> 
-                    <a href="${pageContext.request.contextPath}/userRegistration"  class="btn btn-primary btn-lg">Sign Up</a>
+                    <a href="${pageContext.request.contextPath}/userRegistration"  class="btn btn-warning btn-lg">Sign Up</a>
                 </div>
             </div>
         </div>

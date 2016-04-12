@@ -13,12 +13,12 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>NearGuru - Your personal project service book</title>
-    <meta name="description" content="">
+    <title>NearGuru - Start Home renovation projects </title>
+    <meta name="description" content="best Architects ,Civil Engineers , Interior Designers and General Contractors">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">   
     <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <!-- MAIN STYLE SECTION-->
-<script src="<c:url value="/resources/assets/js/jquery.js" />"></script>
+  <script src="<c:url value="/resources/assets/js/jquery.js" />"></script>
   <script src="<c:url value="/resources/core/jquery.1.10.2.min.js" />"></script>
         <script src="http://maps.googleapis.com/maps/api/js?sensor=false&amp;libraries=places"></script>
    		<script src="<c:url value="/resources/core/jquery.geocomplete.js" />"></script>
@@ -115,7 +115,7 @@
         
                   <div class="col-xs-12 col-sm-4 col-sm-offset-4 col-md-5 col-md-offset-3 login" >
                 <div class="panel panel-success">
-                    <div class="panel-heading ">Login to NearGuru</div>
+                    <div class="panel-heading ">Login to Nearguru</div>
                     <div class="panel-body">
 
                      <c:url var="verifyuser" value="/verifyuser" ></c:url>
@@ -134,7 +134,7 @@
                                 </div>
                                 
                                 
-                                <button id="loginBtn" class="btn btn-success" type="submit">Login</button><div style="float:right" > No Account ? <a href="${pageContext.request.contextPath}/signUp" title="">Sign Up</a></div>
+                                <button id="loginBtn" class="btn btn-warning" type="submit">Login</button><div style="float:right" > No Account ? <a href="${pageContext.request.contextPath}/signUp" title="">Sign Up</a></div>
                             </fieldset>
                        </form:form>
                     </div>

@@ -438,7 +438,7 @@ input:focus:required:invalid {
 												Policy</a>.
 										</p>
 										<button id="btnCreateAccount" type="submit" onClick="check()"
-											class="btn btn-success">Create Account</button>
+											class="btn btn-warning">Create Account</button>
 									</div>
 								</form:form>
 							</div>

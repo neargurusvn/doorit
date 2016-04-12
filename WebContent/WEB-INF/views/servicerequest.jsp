@@ -28,74 +28,35 @@
          <meta name="doc-class" content="Published" />
          
          <c:set var="message" value="${product.productDesc}"/>
-         <title>${product.productDesc}  in Pune | Nearguru </title>
+         <title>${product.productDesc} | Nearguru </title>
          <meta name="description" content="${product.productDesc}">
          <link rel="canonical" href="http://nearguru.com/popularServiceForm/${product.productId}/${fn:replace(message, ' ', '-')}" />
          
-        <!--  
+         
         <c:choose>  
        
-        <c:when test="${product.productId eq 5}"> 
-        		  <title> Cleaning Services in Pune </title>
-        		  <meta name="description" content="Packers and movers provide a professional service of packing and moving any items whether it is household,  An electrician is regularly in demand for electrical works.">
-        		<link rel="canonical" href="http://nearguru.com/popularServiceForm/5/Home%20Cleaning  " />  
-        	</c:when>
-        	<c:when test="${product.productId eq 2}"> 
-        		  <title>Packers and Movers | Electrician </title>
-        		  <meta name="description" content="Packers and movers provide a professional service of packing and moving any items whether it is household,  An electrician is regularly in demand for electrical works.">
-        		<link rel="canonical" href="http://nearguru.com/popularServiceForm/2/PackersandMovers" />
-        	</c:when>
-        	<c:when test="${product.productId eq 4}"> 
-        		  <title>Maid Services  in Pune </title>
-        		  <meta name="description" content="Packers and movers provide a professional service of packing and moving any items whether it is household,  An electrician is regularly in demand for electrical works.">
-        		<link rel="canonical" href="http://nearguru.com/popularServiceForm/4/Maid%20Service" />
-        	</c:when>
-        	<c:when test="${product.productId eq 8}"> 
-        		  <title>plumbing services Pune |  plumbers  in Pune  </title>
-        		  <meta name="description" content="Plumbing is the system and connection of water supply and sewages by pipes, valves, fixtures and drainage system at residential and commercial places.">
-        		<link rel="canonical" href="http://nearguru.com/popularServiceForm/8/Plumbing%20Service" />
-        	</c:when>
-        	<c:when test="${product.productId eq 12}"> 
-        		  <title>safety doors in Pune  </title>
-        		  <meta name="description" content="Plumbing is the system and connection of water supply and sewages by pipes, valves, fixtures and drainage system at residential and commercial places.">
-        		<link rel="canonical" href=" http://nearguru.com/popularServiceForm/12/Safety%20Door" />
-        	</c:when>
-        	<c:when test="${product.productId eq 11}">    
-        		  <title> Electrician Pune </title>
-        		  <meta name="description" content="Plumbing is the system and connection of water supply and sewages by pipes, valves, fixtures and drainage system at residential and commercial places.">
-        		<link rel="canonical" href=" http://nearguru.com/popularServiceForm/11/Electrical" />
-        	</c:when>
+        	        
         	<c:when test="${product.productId eq 13}"> 
-        		  <title>Interior Designer Pune </title>
-        		  <meta name="description" content="Interior Design is to design and décor a space like home, office, hotel and so on giving it a very aesthetic and appealing look. It starts right from analysing,">
-        		<link rel="canonical" href=" http://nearguru.com/popularServiceForm/13/InteriorDesign" />
+        		  <title>Interior Designer | Nearguru </title>
+        		  <meta name="description" content="Interior Decorators , Home Interior design ,interior design website ,home decorator ,Room Interior design ,home decor ideas ,Home Design ,living room design , bedroom interior designs,house designers ,house interior design , interior Interior in Pune">
+        		<link rel="canonical" href=" http://nearguru.com/popularServiceForm/13/Interior-design" />
 			</c:when> 
-        	<c:when test="${product.productId eq 1}">   
-        		  <title>${product.productName}  in Pune | Nearguru </title>
-        		  <meta name="description" content="${product.productName}">
-        		<link rel="canonical" href="http://nearguru.com/popularServiceForm/${product.productId}/${product.productName}" />
-        	</c:when>
+        	
         	<c:when test="${product.productId eq 14}">  
-        		  <title>Modular Kitchen in Pune</title>
-        		  <meta name="description" content="Traditionally, cleaning home is done during festivals like Dussehra and Diwali which initiated almost a month before.  And  Home Painting also have. ">
-        			<link rel="canonical" href="http://nearguru.com/popularServiceForm/14/Modular%20Kitchen" />
+        		  <title>Modular Kitchen | Nearguru</title>
+        		  <meta name="description" content="Modular kitchen price in pune ,Modular kitchen cabinets ,sleek modular kitchen,indian kitchen design,indian modular kitchen designs,Modular kitchen cost ,
+					Modular kitchen ideas,kitchen cabinets ,modular kitchen designs for small kitchens ,modular kitchen online ,modular kitchen furniture ">
+        			<link rel="canonical" href="http://nearguru.com/popularServiceForm/14/Modular-Kitchen" />
         	</c:when>
         	<c:when test="${product.productId eq 16}"> 
         		  <title>Home Painting services | Interior Designer Pune  </title>
-        		  <meta name="description" content="Traditionally, cleaning home is done during festivals like Dussehra and Diwali which initiated almost a month before.  And  Home Painting also have. ">
-        			<link rel="canonical" href="http://nearguru.com/popularServiceForm/16/Interior%20House%20Painting" />
+        		  <meta name="description" content="painters,home painters ,wall paintings ,home painting ideas ,house painting ,Exterior painting ,Home painting ,Painting websites ,Cost of painting a house,
+				   House Painters in Pune">
+        			<link rel="canonical" href="http://nearguru.com/popularServiceForm/16/Interior-House-Painting" />
         	</c:when>  
-        	<c:when test="${product.productId eq 9}">    
-        		  <title>House keeping Service </title>
-        		  <meta name="description" content="Housekeeping involves managing and cleaning daily chores in any establishment like a house, industrial, hotel, hospital, office and so on.">
-        			<link rel="canonical" href="http://nearguru.com/popularServiceForm/9/House%20Keeping" />
-			</c:when> 
-        	<c:otherwise>     
-        		 <title>Nearguru | Service request </title>
-        		  <meta name="description" content="The bed bugs in the furniture actually bug the head, Along with their bad and dirty appearance,There are safety door at bay. ">
-        	</c:otherwise>  
+        	 
         </c:choose> 
-      	 -->
+      	 
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">   
         <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -412,7 +373,7 @@ $(function(){
         <div class="row" style="margin-bottom:30px">
             <div class="col-md-12 bg-color">
            <div class="container">
-                   <h2 class=""> <a href="${pageContext.request.contextPath}/popularServices" title=""><i class="fa fa-arrow-circle-o-left"></i></a>   ${product.productName} Service </h2>
+                   <h2 class=""> <a href="${pageContext.request.contextPath}/popularServices" title=""><i class="fa fa-arrow-circle-o-left"></i></a>   ${product.productName} </h2>
              </div> 
            </div>
 
