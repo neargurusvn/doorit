@@ -264,7 +264,7 @@
                                 </div>
                                  
                                 
-                                <button id="loginBtn" class="btn btn-success" type="submit">Login</button><div style="float:right" > No Account ? <a href="${pageContext.request.contextPath}/userRegistration" title=""><b>Sign Up</b></a></div> 
+                                <button id="loginBtn" class="btn btn-warning" type="submit">Login</button><div style="float:right" > No Account ? <a href="${pageContext.request.contextPath}/userRegistration" title=""><b>Sign Up</b></a></div> 
                             </fieldset>
                        </form>
                     </div>
