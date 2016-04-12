@@ -898,7 +898,7 @@ try{
 		
 	}
 	
-	@RequestMapping(value="/trustandsaftey",method=RequestMethod.GET)
+	@RequestMapping(value="/trustandsafety",method=RequestMethod.GET)
 	public String termsandsaftey(HttpSession session,Model model){
 		
 		logger.info("/termsandsaftey>>termsandsaftey  called"+this.getClass().getSimpleName());
