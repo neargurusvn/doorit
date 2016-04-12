@@ -24,8 +24,9 @@
 <meta name="doc-class" content="Published" />
 <meta name="google-site-verification" content="zDQzN8fpB-A0NgCrU9BskeJUMZMMNV4AuOzeL6Sp-aU" />
 <title>Nearguru | Hire an expert pay fair price </title>
-<meta name="description"
-	content="nearguru Pune - Find local business service providers, pest control, packers and movers, cleaning service / water tank cleaning, interior design, modular kitchen, House painter, Water proofing, plumbing & Catering service.">
+<meta name="description" content="Strat Home Renovation - Architects Engineers , Bathroom Renovation ,Building Contractors ,Building Material ,Carpenter ,Doors and Windows ,Electrical ,Exterior House Painting
+False Ceiling ,Fencing ,Flooring ,Furniture Making ,Home Cleaning ,Interior Design ,Interior House Painting ,Landscaping ,Modular Kitchen ,Pest Control
+Plumbing ,Roofings ,Safety Doors,Swimming Pools,Wallpapers,Water Proofing">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -351,7 +352,7 @@ background-color: #428BCA;
 					<div class='row'>
 						<div class='col-xs-12 col-md-offset-1 col-md-10'
 							style="margin-bottom: 2%">
-							<h1 class="text-center" style="font-size:32px;color:black;"><b>HOW WE WORKS</b></h1>
+							<h1 class="text-center" style="font-size:32px;color:black;"><b>HOW WE WORK</b></h1>
 							<div class="row" style="margin-bottom: 3%">
 
 								<div class="col-md-4" style="text-align: center">
