@@ -29,7 +29,7 @@
          <meta name="doc-class" content="Published" />
          
     <title>NearGuru- Popular Services </title>
-    <meta name="description" content="Get Free quotes for your Home and Events Services.">
+    <meta name="description" content="Get Free quotes for your Home Renovation.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">   
     <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <!-- MAIN STYLE SECTION-->
@@ -102,7 +102,7 @@ padding-left:40px;
 
  <%-- <c:if test="${productGroup.isActive eq 'Y'  }"> --%> <!-- already		 -->
  <c:if test="${product.isActive eq ISNULL || product.isActive eq 'Y'  }">	 
-<li><a href="${pageContext.request.contextPath}/popularServiceForm/${product.productId}/${fn:replace(message, ' ', '-')}-in-pune" >	${product.productDesc}	</a></li>
+<li><a href="${pageContext.request.contextPath}/popularServiceForm/${product.productId}/${fn:replace(message, ' ', '-')}" >	${product.productDesc}	</a></li>
  </c:if> 
 
 </ul>
